@@ -13,10 +13,6 @@ function getUserInput() {
   if (userInput.value != '') {
     return parseInt(userInput.value);
   }
-  else{
-      alert("Enter something in user-Input");
-      return 0;
-  }
 }
 function add() {
     const initialResult= currentResult;

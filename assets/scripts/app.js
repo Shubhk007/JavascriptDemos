@@ -48,6 +48,7 @@ function substract() {
 }
 function writeResult(oldResult, newNumber, operator) {
   const calculationEquation = `${oldResult} ${operator} ${userInput.value}`;
+  userInput.value='';
   outputResult(currentResult, calculationEquation);
 }
 addBtn.addEventListener("click", add);

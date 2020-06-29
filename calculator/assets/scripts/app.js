@@ -6,7 +6,7 @@ function writeToLog(oldResult,newNumber,operator){
         newNumber : newNumber,
         operator : operator
     }
-   // console.log(logger);
+   // console.log(logger);// this will add the comment in the javascript for all other mulitline we must use /**/
     console.log(numberArray);
 }
 function getUserInput() {
